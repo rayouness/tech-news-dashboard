@@ -1,0 +1,1920 @@
+{
+  "articles": [
+    {
+      "id": "815n7a",
+      "title": "I Published an npm Package. Someone Used the Same Name 8 Days Later.",
+      "link": "https://dev.to/silverstream/i-published-an-npm-package-someone-used-the-same-name-8-days-later-42g0",
+      "description": "Eight days after I published my first npm package, I found a GitHub repo with the exact same name. Different author, different language, different country. Same name, same domain (AI agent identity), even some of the same crypto primitives. The…",
+      "source": "Dev.to",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:40:19 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ni4l5n",
+      "title": "How Docker Actually Works: A Deep Dive into Namespaces and Cgroups",
+      "link": "https://dev.to/doogal/how-docker-actually-works-a-deep-dive-into-namespaces-and-cgroups-5h3e",
+      "description": "TL;DR: Docker containers are just standard Linux processes restricted by Namespaces and Cgroups. Namespaces provide visibility isolation by partitioning kernel resources like PIDs and networking, while Cgroups (Control Groups) provide resource…",
+      "source": "Dev.to",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:39:26 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "atkowv",
+      "title": "Building an LLM From Scratch for Indic Languages: What No One Tells You About the Hard Parts",
+      "link": "https://dev.to/daud_ibrahim_9887/building-an-llm-from-scratch-for-indic-languages-what-no-one-tells-you-about-the-hard-parts-1e85",
+      "description": "Context: In 2023, I was part of the core team at Krutrim (OLA's AI subsidiary) working on pre-training India's first large language model with deep Indic language coverage. This series documents not just the technical pipeline, but the…",
+      "source": "Dev.to",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:39:16 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "jd4qg1",
+      "title": "easy-model in Action: Cross-Component Communication, Watching, and Async Loading – All in One Library",
+      "link": "https://dev.to/zyf93/easy-model-in-action-cross-component-communication-watching-and-async-loading-all-in-one-4ndo",
+      "description": "Hey guys, state management in React can be a pain: Redux is heavy, Zustand too light, MobX has a learning curve. Today I'm sharing a balanced option: easy-model, a class-based toolkit that simplifies state while adding IoC and watching. Let me show…",
+      "source": "Dev.to",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:38:36 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "36j7gz",
+      "title": "Unit & Integration Testing: Proving Your Code Works with Pytest",
+      "link": "https://dev.to/ghost_script/unit-integration-testing-proving-your-code-works-with-pytest-4ok",
+      "description": "Why Write Tests? Manual testing means opening Postman every time Unit tests -> test individual functions/logic in isolation def test_price_validation_rejects_negative(): with pytest.raises(ValidationError): ItemDTO(name=\"Test\", price=-10) def…",
+      "source": "Dev.to",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:38:25 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "e96rsy",
+      "title": "Installing .NET 10 on Linux (Pop!_OS) — The Real Journey 🚀",
+      "link": "https://dev.to/marufsarker/installing-net-10-on-linux-popos-the-real-journey-a9k",
+      "description": "So today I decided: .NET 10 on my Pop!_OS dev machine.” Simple, right? Microsoft docs say: sudo apt-get update && sudo apt-get install -y dotnet-sdk-10.0 Reality check from Linux: E: Unable to locate package dotnet-sdk-10.0 Linux basically said:…",
+      "source": "Dev.to",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:37:11 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "q7f4o1",
+      "title": "Day 4 – What Makes An Agent “autonomous”?",
+      "link": "https://dev.to/swatigoyal911/day-4-what-makes-an-agent-autonomous-m2p",
+      "description": "Let’s Clear the Confusion First When people hear “autonomous AI agent”, they imagine one of two extremes: 😨 A runaway system making dangerous decisions 🤩 A superhuman AI that needs no oversight Both are wrong. 👉 Autonomy is not a binary switch.…",
+      "source": "Dev.to",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:36:33 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "y8j8pj",
+      "title": "How Lego builds a new Lego set",
+      "link": "https://www.theverge.com/c/23991049/lego-ideas-polaroid-onestep-behind-the-scenes-price",
+      "description": "Article URL: https://www.theverge.com/c/23991049/lego-ideas-polaroid-onestep-behind-the-scenes-price Comments URL: https://news.ycombinator.com/item?id=47375610 Points: 3 # Comments: 0",
+      "source": "Hacker News",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:35:49 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "l3fy1w",
+      "title": "Azure Management Task 5: Manage Tags and Locks",
+      "link": "https://dev.to/pirrezz/azure-management-task-5-manage-tags-and-locks-233e",
+      "description": "Introduction After configuring the virtual network, virtual machine, and storage resources in the previous exercises, the next step is to improve how these resources are organized and protected. As cloud environments grow, managing resources…",
+      "source": "Dev.to",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:33:25 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "sbez3r",
+      "title": "Stop Guessing Your LLM Replacement",
+      "link": "https://dev.to/theprodsde/stop-guessing-your-llm-replacement-5f7m",
+      "description": "A Practical Guide to Migrating GPT Apps Across Azure, AWS, and GCP TL;DR — Most LLM migrations are not caused by model performance. They happen because of data residency laws, enterprise deployment requirements, or cloud standardisation decisions.…",
+      "source": "Dev.to",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:32:29 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "eozl2c",
+      "title": "Scrape and build a LinkedIn user profile app with Bright Data and React.js",
+      "link": "https://dev.to/alexanie_/scrape-and-build-a-linkedin-user-profile-app-with-bright-data-and-reactjs-42ak",
+      "description": "Imagine a situation where you are given a task to build a user dashboard to help keep track of users’ contacts based on their LinkedIn profiles. To do this, you can simply go to LinkedIn to copy as many contacts as possible and then type and format…",
+      "source": "Dev.to",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 11:30:04 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "jue93p",
+      "title": "European retailers yank popular headphones after study reports trace amounts of hormone-disrupting chemicals",
+      "link": "https://www.theverge.com/science/894771/headphones-hormone-disrupting-chemicals-study",
+      "description": "Some European retailers have stopped selling certain headphones after an EU-funded study found that they contained hormone-disrupting chemicals. The study included leading brands such as Apple, Beats, Samsung, Bose, JBL, and Sennheiser. Online…",
+      "source": "The Verge",
+      "category": "tech-industry",
+      "pubDate": "2026-03-14T11:00:00.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "2j66nu",
+      "title": "Critical HPE AOS-CX Vulnerability Allows Admin Password Resets",
+      "link": "https://www.securityweek.com/critical-hpe-aos-cx-vulnerability-allows-admin-password-resets/",
+      "description": "The vulnerability can be exploited remotely, without authentication, to circumvent existing authentication controls. The post Critical HPE AOS-CX Vulnerability Allows Admin Password Resets appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "category": "cybersecurity",
+      "pubDate": "Sat, 14 Mar 2026 10:50:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "wtoxej",
+      "title": "RAM kits are now sold with one fake RAM stick alongside a real one",
+      "link": "https://www.tomshardware.com/pc-components/ram/fake-ram-bundled-with-real-ram-to-create-a-performance-illusion-for-amd-users-1-1-value-pack-offers-desperate-psychological-relief-as-the-memory-shortage-worsens",
+      "description": "Article URL: https://www.tomshardware.com/pc-components/ram/fake-ram-bundled-with-real-ram-to-create-a-performance-illusion-for-amd-users-1-1-value-pack-offers-desperate-psychological-relief-as-the-memory-shortage-worsens Comments URL:…",
+      "source": "Hacker News",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 10:05:58 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "gph5k8",
+      "title": "UCP Protocol: The Internet Has 100M Shops and No Front Door",
+      "link": "https://askucp.com/blog",
+      "description": "Article URL: https://askucp.com/blog Comments URL: https://news.ycombinator.com/item?id=47375008 Points: 7 # Comments: 6",
+      "source": "Hacker News",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 09:54:40 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ljh2wj",
+      "title": "Megadev: A Development Kit for the Sega Mega Drive and Mega CD Hardware",
+      "link": "https://github.com/drojaazu/megadev",
+      "description": "Article URL: https://github.com/drojaazu/megadev Comments URL: https://news.ycombinator.com/item?id=47374745 Points: 6 # Comments: 0",
+      "source": "Hacker News",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 09:04:39 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "3b4b8c",
+      "title": "Staff complain that xAI is flailing because of constant upheaval",
+      "link": "https://arstechnica.com/ai/2026/03/staff-complain-that-xai-is-flailing-because-of-constant-upheaval/",
+      "description": "Staff complain that the constant upheaval is destroying morale.",
+      "source": "Ars Technica",
+      "category": "tech-industry",
+      "pubDate": "Sat, 14 Mar 2026 07:14:53 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "moa1y5",
+      "title": "Optimizing Content for Agents",
+      "link": "https://cra.mr/optimizing-content-for-agents/",
+      "description": "Article URL: https://cra.mr/optimizing-content-for-agents/ Comments URL: https://news.ycombinator.com/item?id=47372672 Points: 49 # Comments: 18",
+      "source": "Hacker News",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 02:27:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "7q64v6",
+      "title": "Our Experience with I-Ready",
+      "link": "https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/",
+      "description": "Article URL: https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/ Comments URL: https://news.ycombinator.com/item?id=47371922 Points: 72 # Comments: 25",
+      "source": "Hacker News",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 00:29:50 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "slswsx",
+      "title": "NASA officials sidestepped questions on Artemis II risks—there's a reason why",
+      "link": "https://arstechnica.com/space/2026/03/flying-to-the-moon-for-the-first-time-in-54-years-is-risky-but-how-risky/",
+      "description": "\"This ought to make for some good reading,\" NASA's mission management team chair said.",
+      "source": "Ars Technica",
+      "category": "tech-industry",
+      "pubDate": "Sat, 14 Mar 2026 00:17:31 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "q9t609",
+      "title": "‘Not built right the first time’ — Musk’s xAI is starting over again, again",
+      "link": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
+      "description": "The AI lab is revamping its effort to build an AI coding tool, with two new executives joining from Cursor.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "pubDate": "Sat, 14 Mar 2026 00:12:22 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ukgw7t",
+      "title": "Games with loot boxes to get minimum 16 age rating across Europe",
+      "link": "https://www.bbc.com/news/articles/cge84xqjg5lo",
+      "description": "Article URL: https://www.bbc.com/news/articles/cge84xqjg5lo Comments URL: https://news.ycombinator.com/item?id=47371692 Points: 212 # Comments: 123",
+      "source": "Hacker News",
+      "category": "dev-tools",
+      "pubDate": "Sat, 14 Mar 2026 00:02:37 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "aieqs4",
+      "title": "Lawyer behind AI psychosis cases warns of mass casualty risks",
+      "link": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
+      "description": "AI chatbots have been linked to suicides for years. Now one lawyer says they are showing up in mass casualty cases too, and the technology is moving faster than the safeguards.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "pubDate": "Sat, 14 Mar 2026 00:01:02 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "e8ap1o",
+      "title": "I beg you to follow Crocker's Rules, even if you will be rude to me",
+      "link": "https://lr0.org/blog/p/crocker/",
+      "description": "Article URL: https://lr0.org/blog/p/crocker/ Comments URL: https://news.ycombinator.com/item?id=47371275 Points: 78 # Comments: 118",
+      "source": "Hacker News",
+      "category": "dev-tools",
+      "pubDate": "Fri, 13 Mar 2026 23:14:37 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "tnaaaf",
+      "title": "I found 39 Algolia admin keys exposed across open source documentation sites",
+      "link": "https://benzimmermann.dev/blog/algolia-docsearch-admin-keys",
+      "description": "Article URL: https://benzimmermann.dev/blog/algolia-docsearch-admin-keys Comments URL: https://news.ycombinator.com/item?id=47371064 Points: 131 # Comments: 32",
+      "source": "Hacker News",
+      "category": "dev-tools",
+      "pubDate": "Fri, 13 Mar 2026 22:52:05 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "cu3rt7",
+      "title": "Woman sneezes out maggots after fly larvae get trapped in her deviated septum",
+      "link": "https://arstechnica.com/health/2026/03/woman-sneezes-out-maggots-after-fly-larvae-get-trapped-in-her-deviated-septum/",
+      "description": "She made a full recovery, despite the maggots.",
+      "source": "Ars Technica",
+      "category": "tech-industry",
+      "pubDate": "Fri, 13 Mar 2026 22:38:10 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "6r0yk4",
+      "title": "Slay the Spire 2 is a bit too familiar for its own good",
+      "link": "https://arstechnica.com/gaming/2026/03/slay-the-spire-2-is-a-bit-too-familiar-for-its-own-good/",
+      "description": "Early Access impressions: New characters shine, but it feels like we've done this before.",
+      "source": "Ars Technica",
+      "category": "tech-industry",
+      "pubDate": "Fri, 13 Mar 2026 22:26:06 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "nmyg4j",
+      "title": "Microsoft: Windows 11 users can't access C: drive on some Samsung PCs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/",
+      "description": "Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\\ drive and are unable to launch applications. [...]",
+      "source": "Bleeping Computer",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 18:11:57 -0400",
+      "aiSummary": null
+    },
+    {
+      "id": "o7ifc8",
+      "title": "States’ anti-monopoly case against Live Nation continues Monday",
+      "link": "https://www.theverge.com/policy/894851/states-live-nation-monopoly-trial",
+      "description": "The Live Nation-Ticketmaster trial is back on. Dozens of states are expected to move forward with their claims against the company's alleged concert industry monopoly beginning on Monday, following a brief hearing on Friday. The Justice Department…",
+      "source": "The Verge",
+      "category": "tech-industry",
+      "pubDate": "2026-03-13T22:08:39.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "vy5mgv",
+      "title": "Digg lays off staff and shuts down app as company retools",
+      "link": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/",
+      "description": "Digg laid off a significant number of staff and shut down its app, but says it's not giving up on the startup.",
+      "source": "TechCrunch",
+      "category": "tech-industry",
+      "pubDate": "Fri, 13 Mar 2026 21:51:17 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "9vr9n3",
+      "title": "Figuring out why AIs get flummoxed by some games",
+      "link": "https://arstechnica.com/ai/2026/03/figuring-out-why-ais-get-flummoxed-by-some-games/",
+      "description": "When winning depends on intuiting a mathematical function, AIs come up short.",
+      "source": "Ars Technica",
+      "category": "tech-industry",
+      "pubDate": "Fri, 13 Mar 2026 21:47:34 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "jmjkrr",
+      "title": "Spotify tests letting users directly customize their Taste Profile",
+      "link": "https://www.theverge.com/entertainment/894753/spotify-taste-profile",
+      "description": "Less slop please. | Image: Spotify Spotify Premium users in New Zealand will be the first to experience the service's latest personalization feature. The company is letting users view and make changes to their Taste Profile directly. If your…",
+      "source": "The Verge",
+      "category": "tech-industry",
+      "pubDate": "2026-03-13T21:44:23.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "xfki7l",
+      "title": "CVE-2026-32729 - Runtipi has a TOTP two-factor authentication bypass via unrestricted brute-force on `/api/auth/verify-totp`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32729",
+      "description": "CVE ID :CVE-2026-32729 Published : March 13, 2026, 9:41 p.m. | 12 hours, 23 minutes ago Description :Runtipi is a personal homeserver orchestrator. Prior to 4.8.1, The Runtipi /api/auth/verify-totp endpoint does not enforce any rate limiting,…",
+      "source": "CVE Recent",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 2026 21:41:11 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "rd2rf6",
+      "title": "CVE-2026-3227 - Authenticated Command Injection on TP-Link TL-WR802N, TL-WR841N and TL-WR840N",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3227",
+      "description": "CVE ID :CVE-2026-3227 Published : March 13, 2026, 9:38 p.m. | 12 hours, 25 minutes ago Description :A command injection vulnerability was identified in TP-Link TL-WR802N v4, TL-WR841N v14, and TL-WR840N v6 due to improper neutralization of special…",
+      "source": "CVE Recent",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 2026 21:38:31 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "8zbxhl",
+      "title": "Nyne, founded by a father-son duo, gives AI agents the human context they’re missing",
+      "link": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+      "description": "The data infrastructure startup raised $5.3 million in seed funding led by Wischoff Ventures and South Park Commons.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 21:37:01 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "vgh0yw",
+      "title": "CVE-2026-32616 - Pigeon has a Host Header Injection in email verification flow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32616",
+      "description": "CVE ID :CVE-2026-32616 Published : March 13, 2026, 9:12 p.m. | 12 hours, 51 minutes ago Description :Pigeon is a message board/notepad/social system/blog. Prior to 1.0.201, the application uses $_SERVER['HTTP_HOST'] without validation to construct…",
+      "source": "CVE Recent",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 2026 21:12:40 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ciyi21",
+      "title": "Google Fiber will be sold to private equity firm and merge with cable company",
+      "link": "https://arstechnica.com/tech-policy/2026/03/google-fiber-will-be-sold-to-private-equity-firm-and-merge-with-cable-company/",
+      "description": "GFiber and Astound to merge with Alphabet selling majority stake to Stonepeak.",
+      "source": "Ars Technica",
+      "category": "tech-industry",
+      "pubDate": "Fri, 13 Mar 2026 20:57:54 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "58kn18",
+      "title": "FBI seeks victims of Steam games used to spread malware",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/",
+      "description": "The FBI is asking gamers who installed Steam titles containing malware to provide information as part of an ongoing investigation into eight malicious games uploaded to the gaming platform. [...]",
+      "source": "Bleeping Computer",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 16:52:31 -0400",
+      "aiSummary": null
+    },
+    {
+      "id": "qukrlo",
+      "title": "Microsoft’s Copilot AI assistant is coming to current-gen Xbox consoles this year",
+      "link": "https://www.theverge.com/games/894799/microsoft-gaming-copilot-ai-xbox-consoles",
+      "description": "Xbox is getting ready to launch its Gaming Copilot AI assistant on \"current-generation consoles\" this year, according to a report from GamesRadar. Sonali Yadav, Xbox's product manager for gaming AI, revealed the news during a panel at the Game…",
+      "source": "The Verge AI",
+      "category": "ai",
+      "pubDate": "2026-03-13T20:51:48.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "lfone6",
+      "title": "Trump Mobile is just one in the crowd of conservative carriers",
+      "link": "https://www.theverge.com/tech/894762/trump-mobile-conservative-mvno-radiant-patriot-puretalk-charity-liberty",
+      "description": "Where's the Trump phone? We're going to keep talking about it every week. This week, I wanted to see how Trump Mobile stacks up to its conservative carrier competition. Trump Mobile isn't unique. I mean, it is in some pretty specific senses - it's…",
+      "source": "The Verge",
+      "category": "tech-industry",
+      "pubDate": "2026-03-13T20:51:39.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "ugrduw",
+      "title": "Digg’s open beta shuts down after just two months, blaming AI bot spam",
+      "link": "https://www.theverge.com/tech/894803/digg-beta-shutdown-layoffs-ai",
+      "description": "It's only been a year since Digg founder Kevin Rose, Reddit cofounder Alexis Ohanian, and a few others announced the link-sharing site would relaunch, promising a \"social discovery built by communities, not by algorithms.\" Now, two months after…",
+      "source": "The Verge",
+      "category": "tech-industry",
+      "pubDate": "2026-03-13T20:51:15.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "efykfz",
+      "title": "Facebook makes it easier for creators to report impersonators",
+      "link": "https://techcrunch.com/2026/03/13/facebook-makes-it-easier-for-creators-to-report-impersonators/",
+      "description": "Facebook is making it easier for creators to report impersonators while tightening rules around reposts and other unoriginal content.",
+      "source": "TechCrunch",
+      "category": "tech-industry",
+      "pubDate": "Fri, 13 Mar 2026 20:48:43 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "2v5cil",
+      "title": "CVE-2026-32627 - cpp-httplib has a Silent TLS Certificate Verification Bypass on HTTPS Redirect via Proxy",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32627",
+      "description": "CVE ID :CVE-2026-32627 Published : March 13, 2026, 8:48 p.m. | 13 hours, 16 minutes ago Description :cpp-httplib is a C++11 single-file header-only cross platform HTTP/HTTPS library. Prior to 0.37.2, when a cpp-httplib client is configured with a…",
+      "source": "CVE Recent",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 2026 20:48:14 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "q0gahf",
+      "title": "CVE-2025-15060 - claude-hovercraft executeClaudeCode Command Injection Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15060",
+      "description": "CVE ID :CVE-2025-15060 Published : March 13, 2026, 8:43 p.m. | 13 hours, 20 minutes ago Description :claude-hovercraft executeClaudeCode Command Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute…",
+      "source": "CVE Recent",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 2026 20:43:36 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ygigva",
+      "title": "CVE-2026-3083 - GStreamer rtpqdm2depay Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3083",
+      "description": "CVE ID :CVE-2026-3083 Published : March 13, 2026, 8:41 p.m. | 13 hours, 22 minutes ago Description :GStreamer rtpqdm2depay Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code…",
+      "source": "CVE Recent",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 2026 20:41:31 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "seidl1",
+      "title": "CVE-2026-3085 - GStreamer rtpqdm2depay Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3085",
+      "description": "CVE ID :CVE-2026-3085 Published : March 13, 2026, 8:40 p.m. | 13 hours, 24 minutes ago Description :GStreamer rtpqdm2depay Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute…",
+      "source": "CVE Recent",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 2026 20:40:02 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "semyts",
+      "title": "CVE-2026-3838 - Unraid Update Request Path Traversal Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3838",
+      "description": "CVE ID :CVE-2026-3838 Published : March 13, 2026, 8:37 p.m. | 13 hours, 26 minutes ago Description :Unraid Update Request Path Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on…",
+      "source": "CVE Recent",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 2026 20:37:53 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "r47ds3",
+      "title": "CVE-2026-3561 - Philips Hue Bridge hk_hap characteristics Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3561",
+      "description": "CVE ID :CVE-2026-3561 Published : March 13, 2026, 8:37 p.m. | 13 hours, 27 minutes ago Description :Philips Hue Bridge hk_hap characteristics Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent…",
+      "source": "CVE Recent",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 2026 20:37:05 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "vdacx3",
+      "title": "CVE-2026-3560 - Philips Hue Bridge HomeKit hk_hap_pair_storage_put Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3560",
+      "description": "CVE ID :CVE-2026-3560 Published : March 13, 2026, 8:37 p.m. | 13 hours, 27 minutes ago Description :Philips Hue Bridge HomeKit hk_hap_pair_storage_put Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows…",
+      "source": "CVE Recent",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 2026 20:37:01 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "skuxk",
+      "title": "Supply-chain attack using invisible code hits GitHub and other repositories",
+      "link": "https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/",
+      "description": "Unicode that's invisible to the human eye was largely abandoned—until attackers took notice.",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 20:18:08 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "kfwn8g",
+      "title": "Steven Spielberg says he’s ‘never used AI’ in any of his films",
+      "link": "https://techcrunch.com/2026/03/13/steven-spielberg-says-hes-never-used-ai-in-any-of-his-films/",
+      "description": "At SXSW, Steven Spielberg said AI has uses in many fields, but not when it comes to replacing creative people in film and TV writing.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 19:47:58 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "9xxzqk",
+      "title": "Instagram is getting rid of end-to-end encrypted DMs that ‘very few’ people used",
+      "link": "https://www.theverge.com/tech/894752/instagram-end-to-end-encryption",
+      "description": "Instagram will no longer support end-to-end encrypted messages starting May 8th. In a statement to The Verge, Meta spokesperson Dina El-Kassaby Luce says the platform is discontinuing the feature because \"very few people\" were using E2EE in their…",
+      "source": "The Verge",
+      "category": "tech-industry",
+      "pubDate": "2026-03-13T19:39:11.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "dbqks4",
+      "title": "The biggest AI stories of the year (so far)",
+      "link": "https://techcrunch.com/2026/03/13/the-biggest-ai-stories-of-the-year-so-far/",
+      "description": "The AI industry is constantly churning out news, like major acquisitions, indie developer successes, public outcry, and existentially dangerous contract negotiations.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 19:38:11 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "o12253",
+      "title": "Travis Kalanick launches a new company called Atoms focused on robotics",
+      "link": "https://techcrunch.com/2026/03/13/travis-kalanick-launches-a-new-company-called-atoms-focused-on-robotics/",
+      "description": "Kalanick's existing ghost kitchen company CloudKitchens will be rolled into Atoms, which also wants to get into mining and transport.",
+      "source": "TechCrunch",
+      "category": "tech-industry",
+      "pubDate": "Fri, 13 Mar 2026 19:28:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ukpkc2",
+      "title": "Fake PoCs, Misunderstood Risks Cause Cisco SD-WAN Chaos",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/fake-pocs-risks-cisco-sd-wan",
+      "description": "The excitement around Cisco's latest SD-WAN bugs has inspired some light fraud, misunderstandings, and overlooked risks.",
+      "source": "Dark Reading",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 19:19:38 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "ccxc2",
+      "title": "Digg is gone again",
+      "link": "https://digg.com/",
+      "description": "Article URL: https://digg.com/ Comments URL: https://news.ycombinator.com/item?id=47368135 Points: 198 # Comments: 178",
+      "source": "Hacker News",
+      "category": "dev-tools",
+      "pubDate": "Fri, 13 Mar 2026 18:52:17 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "3rzk1y",
+      "title": "Adobe settles DOJ cancellation fee lawsuit, will pay $75 million penalty",
+      "link": "https://arstechnica.com/gadgets/2026/03/adobe-settles-doj-cancellation-fee-lawsuit-will-pay-75-million-penalty/",
+      "description": "Adobe says it will also give customers who \"qualify\" free services but is vague on details.",
+      "source": "Ars Technica",
+      "category": "tech-industry",
+      "pubDate": "Fri, 13 Mar 2026 18:47:08 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "gqdzsw",
+      "title": "Google Pixel 10A review: Just buy the 9A",
+      "link": "https://www.theverge.com/tech/894319/google-pixel-10a-review-screen-specs-battery-camera",
+      "description": "I'm not entirely sure why the Pixel 10A exists. Google hasn't upgraded the chipset, cameras, or battery in the new phone, and the tweaks it's made elsewhere are minimal at best. The flatter camera island is good, I guess! In one sense this isn't a…",
+      "source": "The Verge",
+      "category": "tech-industry",
+      "pubDate": "2026-03-13T18:36:36.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "pclij8",
+      "title": "Doubling the voltage: What 800 V architecture really changes in EVs",
+      "link": "https://arstechnica.com/cars/2026/03/doubling-the-voltage-what-800-v-architecture-really-changes-in-evs/",
+      "description": "Confused about electric vehicle voltages? You won't be after reading this.",
+      "source": "Ars Technica",
+      "category": "tech-industry",
+      "pubDate": "Fri, 13 Mar 2026 18:30:17 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ec9lq3",
+      "title": "Backbone’s versatile pro controller is nearly matching its best price to date",
+      "link": "https://www.theverge.com/gadgets/893862/backbone-pro-mobile-controller-cmf-watch-3-deal-sale",
+      "description": "Mobile gaming has come a long way over the course of the last decade or so, but we all know that smartphones simply can’t match the visceral, tactile feel you get while playing with a dedicated controller. Luckily, Backbone makes some excellent…",
+      "source": "The Verge",
+      "category": "tech-industry",
+      "pubDate": "2026-03-13T17:52:48.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "e2pmx1",
+      "title": "Adobe will pay $75 million to settle US cancellation fee lawsuit",
+      "link": "https://www.theverge.com/tech/894555/adobe-75-million-doj-settlement-subscriptions",
+      "description": "Adobe says it will pay $75 million to resolve a lawsuit filed by the US government alleging that the creative software giant harmed consumers by making its subscriptions intentionally hard to cancel and concealing termination fees. The payment aims…",
+      "source": "The Verge",
+      "category": "tech-industry",
+      "pubDate": "2026-03-13T17:52:01.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "2fsd7c",
+      "title": "Another AT&T FirstNet user gets shocking $6,200 bill, at $2 per megabyte",
+      "link": "https://arstechnica.com/tech-policy/2026/03/att-wrongly-charged-man-6196-reversed-bill-after-hearing-from-ars/",
+      "description": "Bizarre FirstNet charge nearly identical to one that hit different user in 2024.",
+      "source": "Ars Technica",
+      "category": "tech-industry",
+      "pubDate": "Fri, 13 Mar 2026 17:49:44 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "49xrbn",
+      "title": "The Data Gap: Why Nonprofit Cyber Incidents Go Underreported",
+      "link": "https://www.darkreading.com/threat-intelligence/data-gap-why-nonprofit-cyber-incidents-go-underreported",
+      "description": "Threat actors target nonprofits due to security gaps and highly coveted information, but a lack of sufficient data makes it difficult to grasp the entire picture.",
+      "source": "Dark Reading",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 17:42:09 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "5r8e3r",
+      "title": "Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware",
+      "link": "https://thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html",
+      "description": "A suspected China-based cyber espionage operation has targeted Southeast Asian military organizations as part of a state-sponsored campaign that dates back to at least 2020. Palo Alto Networks Unit 42 is tracking the threat activity under the…",
+      "source": "The Hacker News",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 23:03:00 +0530",
+      "aiSummary": null
+    },
+    {
+      "id": "bjvqhw",
+      "title": "Cyberattackers Don't Care About Good Causes",
+      "link": "https://www.darkreading.com/cyber-risk/cyberattackers-dont-care-about-good-causes",
+      "description": "Sightline Security's founder and advisory board discuss how cybersecurity poses significant problems for nonprofits and suggest ways the industry can help.",
+      "source": "Dark Reading",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 17:15:17 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "9zzw0o",
+      "title": "Poland's nuclear research centre targeted by cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/",
+      "description": "Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]",
+      "source": "Bleeping Computer",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 13:11:37 -0400",
+      "aiSummary": null
+    },
+    {
+      "id": "xrs7yt",
+      "title": "The wild six weeks for NanoClaw’s creator that led to a deal with Docker",
+      "link": "https://techcrunch.com/2026/03/13/the-wild-six-weeks-for-nanoclaws-creator-that-led-to-a-deal-with-docker/",
+      "description": "Gavriel Cohen is living an open source developer's dream as his project has achieved acclaim and a partnership with Docker in a matter of weeks.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 17:09:59 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ywhnn0",
+      "title": "Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026",
+      "link": "https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html",
+      "description": "Meta has announced plans to discontinue support for end-to-end encryption (E2EE) for chats on Instagram after May 8, 2026. \"If you have chats that are impacted by this change, you will see instructions on how you can download any media or messages…",
+      "source": "The Hacker News",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 22:39:00 +0530",
+      "aiSummary": null
+    },
+    {
+      "id": "orwtji",
+      "title": "Spotify will let you edit your Taste Profile to control your recommendations",
+      "link": "https://techcrunch.com/2026/03/13/spotify-will-let-you-edit-your-taste-profile-to-control-your-recommendations/",
+      "description": "When you edit your Taste Profile, you'll impact your personalized playlists like Discover Weekly, recommendations, and Wrapped.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 17:04:12 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "e2qr4e",
+      "title": "Microsoft investigates classic Outlook sync and connection issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/",
+      "description": "​Microsoft is investigating several issues causing email synchronization and connection problems when using the classic Outlook desktop client. [...]",
+      "source": "Bleeping Computer",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 12:53:02 -0400",
+      "aiSummary": null
+    },
+    {
+      "id": "8cuu4a",
+      "title": "The $32B acquisition that one VC is calling the ‘Deal of the Decade’",
+      "link": "https://techcrunch.com/video/the-32b-acquisition-that-one-vc-is-calling-the-deal-of-the-decade/",
+      "description": "According to Index Ventures Partner Shardul Shah, cybersecurity startup Wiz sits “at the center of three tailwinds: AI, cloud, and security spend.” Those tailwinds powered what just became the largest venture-backed acquisition in history — Google’s…",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 16:20:23 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "8dw3lz",
+      "title": "Will AI Save Consumers From Smartphone-Based Phishing Attacks?",
+      "link": "https://www.darkreading.com/mobile-security/will-ai-save-consumers-smartphone-phishing-attacks",
+      "description": "Sophisticated phishing attacks are bypassing on-device protections with troubling frequency, making it more critical than ever for users to protect themselves from potential threats, new research from Omdia shows.",
+      "source": "Dark Reading",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 15:57:47 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "nr38r7",
+      "title": "Starbucks Data Breach Impacts Employees",
+      "link": "https://www.securityweek.com/starbucks-data-breach-impacts-employees/",
+      "description": "Starbucks said the incident involved phishing attacks targeting an employee portal, affecting hundreds. The post Starbucks Data Breach Impacts Employees appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 15:21:13 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "3fa15x",
+      "title": "INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime",
+      "link": "https://thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html",
+      "description": "INTERPOL on Friday announced the takedown of 45,000 malicious IP addresses and servers used in connection with phishing, malware, and ransomware campaigns, as part of the agency's ongoing efforts to dismantle criminal networks, disrupt emerging…",
+      "source": "The Hacker News",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 20:50:00 +0530",
+      "aiSummary": null
+    },
+    {
+      "id": "8iqviq",
+      "title": "Why physical AI is becoming manufacturing’s next advantage",
+      "link": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+      "description": "For decades, manufacturers have pursued automation to drive efficiency, reduce costs, and stabilize operations. That approach delivered meaningful gains, but it is no longer enough. Today’s manufacturing leaders face a different challenge: how to…",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 15:16:55 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "eqcvrw",
+      "title": "45,000 malicious IP addresses taken down in international cyber operation",
+      "link": "https://databreaches.net/2026/03/13/45000-malicious-ip-addresses-taken-down-in-international-cyber-operation/?pk_campaign=feed&pk_kwd=45000-malicious-ip-addresses-taken-down-in-international-cyber-operation",
+      "description": "An international cybercrime operation targeting phishing, malware and ransomware has taken down more than 45,000 malicious IP addresses and servers. Law enforcement from 72 countries and territories took part in Operation Synergia III (18 July 2025…",
+      "source": "DataBreaches.net",
+      "category": "data-breaches",
+      "pubDate": "Fri, 13 Mar 2026 14:57:37 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "vr9gv3",
+      "title": "The Broken Records: tracing the human cost of the 2022 British MoD leak",
+      "link": "https://databreaches.net/2026/03/13/the-broken-records-tracing-the-human-cost-of-the-2022-british-mod-leak/?pk_campaign=feed&pk_kwd=the-broken-records-tracing-the-human-cost-of-the-2022-british-mod-leak",
+      "description": "Harvey Depledge-Kittle writes: In February 2022, a Ministry of Defence data breach exposed sensitive personal information relating to approximately 18,700 Afghan nationals who had assisted UK forces and applied for protection. The breach was not…",
+      "source": "DataBreaches.net",
+      "category": "data-breaches",
+      "pubDate": "Fri, 13 Mar 2026 14:49:49 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "yaghov",
+      "title": "In Other News: N8n Flaw Exploited, Slopoly Malware, Interpol Cybercrime Crackdown",
+      "link": "https://www.securityweek.com/in-other-news-n8n-flaw-exploited-slopoly-malware-interpol-cybercrime-crackdown/",
+      "description": "Other noteworthy stories that might have slipped under the radar: Telus Digital data breach, vulnerabilities in Linux AppArmor allow root privileges, US defense contractor behind Coruna exploits. The post In Other News: N8n Flaw Exploited, Slopoly…",
+      "source": "SecurityWeek",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 14:27:12 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "legyev",
+      "title": "From VMware to what’s next: Protecting data during hypervisor migration",
+      "link": "https://www.bleepingcomputer.com/news/security/from-vmware-to-whats-next-protecting-data-during-hypervisor-migration/",
+      "description": "Hypervisor migrations can introduce hidden risks that threaten data availability and recovery. Acronis explains why verified backups and cross-platform recovery are essential during VMware transitions. [...]",
+      "source": "Bleeping Computer",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 10:15:25 -0400",
+      "aiSummary": null
+    },
+    {
+      "id": "m2god2",
+      "title": "Peacock expands into AI-driven video, mobile-first live sports, and gaming",
+      "link": "https://techcrunch.com/2026/03/13/peacock-expands-into-ai-driven-video-mobile-first-live-sports-and-gaming/",
+      "description": "Peacock is betting on new AI-powered video experiences, vertical clips, and mobile games to help its growth.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 14:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "g9bn4i",
+      "title": "Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials",
+      "link": "https://thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html",
+      "description": "Microsoft has disclosed details of a credential theft campaign that employs fake virtual private network (VPN) clients distributed through search engine optimization (SEO) poisoning techniques. \"The campaign redirects users searching for legitimate…",
+      "source": "The Hacker News",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 19:08:00 +0530",
+      "aiSummary": null
+    },
+    {
+      "id": "q6nccj",
+      "title": "Police sinkholes 45,000 IP addresses in cybercrime crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/",
+      "description": "An international law enforcement action codenamed \"Operation Synergia III\" has sinkholed tens of thousands of IP addresses and seized servers linked to cybercrime operations worldwide. [...]",
+      "source": "Bleeping Computer",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 09:28:33 -0400",
+      "aiSummary": null
+    },
+    {
+      "id": "anour9",
+      "title": "Investigating a New Click-Fix Variant",
+      "link": "https://thehackernews.com/2026/03/investigating-new-click-fix-variant.html",
+      "description": "Disclaimer: This report has been prepared by the Threat Research Center to enhance cybersecurity awareness and support the strengthening of defense capabilities. It is based on independent research and observations of the current threat landscape…",
+      "source": "The Hacker News",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 18:58:00 +0530",
+      "aiSummary": null
+    },
+    {
+      "id": "gg95m6",
+      "title": "Fake enterprise VPN sites used to steal company credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/",
+      "description": "A threat actor tracked as Storm-2561 is distributing fake enterprise VPN clients from Ivanti, Cisco, and Fortinet to steal VPN credentials from unsuspecting users. [...]",
+      "source": "Bleeping Computer",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 09:23:28 -0400",
+      "aiSummary": null
+    },
+    {
+      "id": "t1icu6",
+      "title": "Most Google Cloud Attacks Start With Bug Exploitation",
+      "link": "https://www.darkreading.com/cloud-security/google-cloud-attacks-bug-exploitation",
+      "description": "Forget stolen credentials and misconfigurations; AI means vulnerability exploits that beat patching cycles are the top cause of compromises in the cloud.",
+      "source": "Dark Reading",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 13:20:58 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "uu4a05",
+      "title": "Real-Time Banking Trojan Strikes Brazil's Pix Users",
+      "link": "https://www.darkreading.com/application-security/real-time-banking-trojan-strikes-brazils-pix-users",
+      "description": "The latest banking Trojan campaign to hit Brazil combines classic malware with a real-time human operator, waiting for the perfect moment to strike.",
+      "source": "Dark Reading",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 13:00:00 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "bzumo5",
+      "title": "Iran-Linked Hackers Take Aim at US and Other Targets, Raising Risk of Cyberattacks During War",
+      "link": "https://www.securityweek.com/iran-linked-hackers-take-aim-at-us-and-other-targets-raising-risk-of-cyberattacks-during-war/",
+      "description": "Pro-Iranian hackers are targeting sites in the Middle East and starting to stretch into the United States during the war, raising the risk of American defense contractors, power stations and water plants. The post Iran-Linked Hackers Take Aim at US…",
+      "source": "SecurityWeek",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 12:32:48 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ooz141",
+      "title": "The Download: how AI is used for military targeting, and the Pentagon’s war on Claude",
+      "link": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Defense official reveals how AI chatbots could be used for targeting decisions The US military might use…",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 12:16:56 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "lu4ab6",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-3909 Google Skia Out-of-Bounds Write Vulnerability CVE-2026-3910 Google Chromium V8 Unspecified…",
+      "source": "CISA Advisories",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 13 Mar 26 12:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "rha0aw",
+      "title": "Bold Security Emerges From Stealth With $40 Million in Funding",
+      "link": "https://www.securityweek.com/bold-security-emerges-from-stealth-with-40-million-in-funding/",
+      "description": "The startup relies on AI to turn devices into active agents that understand users’ actions and provide protection in real time. The post Bold Security Emerges From Stealth With $40 Million in Funding appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 11:36:32 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "enysht",
+      "title": "Google Paid Out $17 Million in Bug Bounty Rewards in 2025",
+      "link": "https://www.securityweek.com/google-paid-out-17-million-in-bug-bounty-rewards-in-2025/",
+      "description": "Google paid over $3.7 million for Chrome vulnerabilities, and more than $3.5 million for cloud security defects. The post Google Paid Out $17 Million in Bug Bounty Rewards in 2025 appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 11:04:54 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "2k300z",
+      "title": "Iran-Linked Hacker Attack on Stryker Disrupted Manufacturing and Shipping",
+      "link": "https://www.securityweek.com/iran-linked-hacker-attack-on-stryker-disrupted-manufacturing-and-shipping/",
+      "description": "Evidence indicates that the attackers leveraged existing endpoint management software rather than malware to wipe devices. The post Iran-Linked Hacker Attack on Stryker Disrupted Manufacturing and Shipping appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 10:38:47 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "dxdevi",
+      "title": "Onyx Security Launches With $40 Million in Funding",
+      "link": "https://www.securityweek.com/onyx-security-launches-with-40-million-in-funding/",
+      "description": "The startup is building a control pane to help organizations oversee autonomous AI agents and rapidly adopt them. The post Onyx Security Launches With $40 Million in Funding appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 09:25:51 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "snxc8b",
+      "title": "Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8",
+      "link": "https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html",
+      "description": "Google on Thursday released security updates for its Chrome web browser to address two high-severity vulnerabilities that it said have been exploited in the wild. The list of vulnerabilities is as follows - CVE-2026-3909 (CVSS score: 8.8) - An…",
+      "source": "The Hacker News",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 14:47:00 +0530",
+      "aiSummary": null
+    },
+    {
+      "id": "3fyh3p",
+      "title": "Future AI chips could be built on glass",
+      "link": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+      "description": "Human-made glass is thousands of years old. But it’s now poised to find its way into the AI chips used in the world’s newest and largest data centers. This year, a South Korean company called Absolics is planning to start commercial production of…",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 09:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "8vvqp7",
+      "title": "Authorities Disrupt SocksEscort Proxy Service Powered by AVrecon Botnet",
+      "link": "https://www.securityweek.com/authorities-disrupt-socksescort-proxy-service-powered-by-avrecon-botnet/",
+      "description": "Law enforcement agencies in the US and Europe targeted the cybercrime service that has impacted 360,000 devices since 2020. The post Authorities Disrupt SocksEscort Proxy Service Powered by AVrecon Botnet appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 08:27:34 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "y6vdeh",
+      "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
+      "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
+      "description": "Cybersecurity researchers have disclosed multiple security vulnerabilities within the Linux kernel's AppArmor module that could be exploited by unprivileged users to circumvent kernel protections, escalate to root, and undermine container isolation…",
+      "source": "The Hacker News",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 13:48:00 +0530",
+      "aiSummary": null
+    },
+    {
+      "id": "fbd578",
+      "title": "Starbucks discloses data breach affecting hundreds of employees",
+      "link": "https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/",
+      "description": "Starbucks has disclosed a data breach affecting hundreds of employees after threat actors gained access to their Starbucks Partner Central accounts. [...]",
+      "source": "Bleeping Computer",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 04:16:55 -0400",
+      "aiSummary": null
+    },
+    {
+      "id": "yvw8sj",
+      "title": "Chrome 146 Update Patches Two Exploited Zero-Days",
+      "link": "https://www.securityweek.com/chrome-146-update-patches-two-exploited-zero-days/",
+      "description": "The flaws can be exploited to manipulate data and bypass security restrictions, potentially leading to code execution. The post Chrome 146 Update Patches Two Exploited Zero-Days appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 07:47:19 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ica428",
+      "title": "Google fixes two new Chrome zero-days exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/",
+      "description": "Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]",
+      "source": "Bleeping Computer",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 02:56:58 -0400",
+      "aiSummary": null
+    },
+    {
+      "id": "43ncms",
+      "title": "Authorities Disrupt SocksEscort Proxy Botnet Exploiting 369,000 IPs Across 163 Countries",
+      "link": "https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html",
+      "description": "A court-authorized international law enforcement operation has dismantled a criminal proxy service named SocksEscort that enslaved thousands of residential routers worldwide into a botnet for committing large-scale fraud. \"SocksEscort infected home…",
+      "source": "The Hacker News",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 10:56:00 +0530",
+      "aiSummary": null
+    },
+    {
+      "id": "w2jyon",
+      "title": "Before quantum computing arrives, this startup wants enterprises already running on it",
+      "link": "https://techcrunch.com/2026/03/12/before-quantum-computing-arrives-this-startup-wants-enterprises-already-running-on-it/",
+      "description": "After selling his AI startup to AMD for $665 million, Peter Sarlin is back with Qutwo, a new venture building the infrastructure it believes enterprises will need when quantum computing finally arrives.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "pubDate": "Fri, 13 Mar 2026 05:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "5v00y2",
+      "title": "Veeam Patches 7 Critical Backup & Replication Flaws Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html",
+      "description": "Veeam has released security updates to address multiple critical vulnerabilities in its Backup & Replication software that, if successfully exploited, could result in remote code execution. The vulnerabilities are as follows - CVE-2026-21666 (CVSS…",
+      "source": "The Hacker News",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 13 Mar 2026 09:45:00 +0530",
+      "aiSummary": null
+    },
+    {
+      "id": "urlh4d",
+      "title": "A defense official reveals how AI chatbots could be used for targeting decisions",
+      "link": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/",
+      "description": "The US military might use generative AI systems to rank lists of targets and make recommendations—which would be vetted by humans—about which to strike first, according to a Defense Department official with knowledge of the matter. The disclosure…",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "pubDate": "Thu, 12 Mar 2026 22:23:34 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "53gy60",
+      "title": "The who, what, and why of the attack that has shut down Stryker's Windows network",
+      "link": "https://arstechnica.com/security/2026/03/whats-known-about-wiper-attack-on-stryker-a-major-supplier-of-lifesaving-devices/",
+      "description": "Company says it doesn't know how long it will take to restore its Microsoft environment.",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "pubDate": "Thu, 12 Mar 2026 22:18:11 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "hwlwzt",
+      "title": "Why Post-Quantum Cryptography Can't Wait",
+      "link": "https://www.darkreading.com/cyber-risk/why-post-quantum-cryptography-cant-wait",
+      "description": "Organizations have to prepare to ensure they have cryptography in place in the post-quantum world.",
+      "source": "Dark Reading",
+      "category": "cybersecurity",
+      "pubDate": "Thu, 12 Mar 2026 21:45:25 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "p8jh7n",
+      "title": "Canadian retail giant Loblaw notifies customers of data breach",
+      "link": "https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/",
+      "description": "Still, out of an abundance of caution, Loblaw says it has automatically logged out all customers from their accounts. Account holders who need to access the company's digital services will have to log in again. [...]",
+      "source": "Bleeping Computer",
+      "category": "cybersecurity",
+      "pubDate": "Thu, 12 Mar 2026 17:32:21 -0400",
+      "aiSummary": null
+    },
+    {
+      "id": "2kba45",
+      "title": "Iran MOIS Colludes With Criminals to Boost Cyberattacks",
+      "link": "https://www.darkreading.com/threat-intelligence/iran-mois-criminals-cyberattacks",
+      "description": "Iranian APTs have long pretended to be cybercriminal groups. Now they're working with actual cybercriminal groups.",
+      "source": "Dark Reading",
+      "category": "cybersecurity",
+      "pubDate": "Thu, 12 Mar 2026 21:11:20 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "8zgv3b",
+      "title": "Commercial Spyware Opponents Fear US Policy Shifting",
+      "link": "https://www.darkreading.com/threat-intelligence/commercial-spyware-opponents-fear-us-policy-shifting",
+      "description": "Rescinded sanctions and reactivated contracts have created confusion about the Trump administration's spyware policy and where it draws the line.",
+      "source": "Dark Reading",
+      "category": "cybersecurity",
+      "pubDate": "Thu, 12 Mar 2026 20:35:25 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "7jo7km",
+      "title": "Facebook Marketplace adds AI auto-replies for annoying ‘Is this still available?’ messages",
+      "link": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings",
+      "description": "Facebook Marketplace is adding a bunch of new AI-powered tools that are supposed to make selling items on the platform a little more efficient. One feature will use Meta AI to automatically respond to those annoying \"Is this still available?\"…",
+      "source": "The Verge AI",
+      "category": "ai",
+      "pubDate": "2026-03-12T17:59:32.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "t6sbxi",
+      "title": "Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays",
+      "link": "https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html",
+      "description": "Cybersecurity researchers have disclosed details of a new banking malware targeting Brazilian users that's written in Rust, marking a significant departure from other known Delphi-based malware families associated with the Latin American cybercrime…",
+      "source": "The Hacker News",
+      "category": "cybersecurity",
+      "pubDate": "Thu, 12 Mar 2026 23:01:00 +0530",
+      "aiSummary": null
+    },
+    {
+      "id": "vxgdvr",
+      "title": "Delinea's StrongDM Acquisition Highlights the Changing Role of PAM",
+      "link": "https://www.darkreading.com/identity-access-management-security/delinea-strongdm-acquisition-highlights-changing-role-pam",
+      "description": "StrongDM, which injects ephemeral, real-time credentials into developer workflows, will enable Delinea to offer privilege access management across cloud, SaaS, Kubernetes, and database environments.",
+      "source": "Dark Reading",
+      "category": "cybersecurity",
+      "pubDate": "Thu, 12 Mar 2026 17:02:11 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "napifa",
+      "title": "Gemini’s task automation is here and it’s wild",
+      "link": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10",
+      "description": "Computers ordering cappuccinos. A couple of weeks ago, Google and Samsung announced a big Gemini development coming to their newest devices: task automation. Starting with food delivery and rideshare apps, Gemini would be able to use certain apps on…",
+      "source": "The Verge AI",
+      "category": "ai",
+      "pubDate": "2026-03-12T16:59:43.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "3gd8dr",
+      "title": "Telus Digital confirms breach after ShinyHunters claims 1 petabyte data theft",
+      "link": "https://databreaches.net/2026/03/12/telus-digital-confirms-breach-after-shinyhunters-claims-1-petabyte-data-theft/?pk_campaign=feed&pk_kwd=telus-digital-confirms-breach-after-shinyhunters-claims-1-petabyte-data-theft",
+      "description": "Lawrence Abrams reports: Canadian business process outsourcing giant Telus Digital has confirmed it suffered a security incident after threat actors claimed to have stolen nearly 1 petabyte of data from the company in a multi-month breach. Telus…",
+      "source": "DataBreaches.net",
+      "category": "data-breaches",
+      "pubDate": "Thu, 12 Mar 2026 16:38:32 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "csu79a",
+      "title": "Anthropic&#8217;s Claude AI can respond with charts, diagrams, and other visuals now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+      "description": "Anthropic's latest update to Claude will allow the AI chatbot to generate custom charts, diagrams, and other visualizations during your conversation. If Claude determines a visual is useful based on the context of your chat, it will insert the image…",
+      "source": "The Verge AI",
+      "category": "ai",
+      "pubDate": "2026-03-12T16:00:00.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "lpfn9z",
+      "title": "Continuous AI for accessibility: How GitHub transforms feedback into inclusion",
+      "link": "https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/",
+      "description": "AI automates triage for accessibility feedback, allowing us to focus on fixing barriers—turning a chaotic backlog into continuous, rapid resolutions. The post Continuous AI for accessibility: How GitHub transforms feedback into inclusion appeared…",
+      "source": "GitHub Blog",
+      "category": "dev-tools",
+      "pubDate": "Thu, 12 Mar 2026 16:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "60qn6z",
+      "title": "Anthropic doesn’t trust the Pentagon, and neither should you",
+      "link": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
+      "description": "Today we’re talking about the messy, fast-moving situation at Anthropic, the maker of Claude that now finds itself in a very ugly legal battle with the Pentagon. The back-and-forth is complicated, but as of a few days ago, the Pentagon had deemed…",
+      "source": "The Verge AI",
+      "category": "ai",
+      "pubDate": "2026-03-12T14:00:00.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "2lgk8d",
+      "title": "Bespoke AI models are the next big thing in filmmaking",
+      "link": "https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck",
+      "description": "Though many AI boosters have convinced themselves that the technology can spit out films and television series whole cloth, claims of Hollywood being cooked feel very premature when you see what people are making with the most popular image/video…",
+      "source": "The Verge AI",
+      "category": "ai",
+      "pubDate": "2026-03-12T13:56:00.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "evf4b5",
+      "title": "The Download: Early adopters cash in on China’s OpenClaw craze, and US batteries slump",
+      "link": "https://www.technologyreview.com/2026/03/12/1134207/the-download-china-openclaw-ai-craze-us-battery-industry-downturn/",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Hustlers are cashing in on China’s OpenClaw AI craze In January, Beijing-based software engineer Feng Qingyang…",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "pubDate": "Thu, 12 Mar 2026 13:02:48 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "spb6ak",
+      "title": "Microsoft’s Copilot Health can connect to your medical records and wearables",
+      "link": "https://www.theverge.com/tech/893594/microsoft-copilot-health-launch",
+      "description": "Microsoft announced on Thursday that it's launching Copilot Health, a \"separate, secure space\" in Copilot for asking questions about lab results and medical records, searching for providers, analyzing data from wearables, and other health-related…",
+      "source": "The Verge AI",
+      "category": "ai",
+      "pubDate": "2026-03-12T13:01:07.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "4sx0q7",
+      "title": "Pragmatic by design: Engineering AI for the real world",
+      "link": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
+      "description": "The impact of artificial intelligence extends far beyond the digital world and into our everyday lives, across the cars we drive, the appliances in our homes, and medical devices that keep people alive. More and more, product engineers are turning…",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "pubDate": "Thu, 12 Mar 2026 13:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "xtvtog",
+      "title": "China’s CERT warns OpenClaw can inflict nasty wounds",
+      "link": "https://databreaches.net/2026/03/12/chinas-cert-warns-openclaw-can-inflict-nasty-wounds/?pk_campaign=feed&pk_kwd=chinas-cert-warns-openclaw-can-inflict-nasty-wounds",
+      "description": "Simon Sharwood reports: China’s National Computer Network Emergency Response Technical Team has warned locals that the OpenClaw agentic AI tool poses significant security risks. In a Tuesday post to its WeChat account, the CERT warned that OpenClaw…",
+      "source": "DataBreaches.net",
+      "category": "data-breaches",
+      "pubDate": "Thu, 12 Mar 2026 12:34:41 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "tf549i",
+      "title": "You can now ask Google Maps ‘complex, real-world questions’ — and Gemini will answer",
+      "link": "https://www.theverge.com/tech/893262/google-maps-gemini-ai-ask-maps-immersive-navigation",
+      "description": "Google is continuing to weave Gemini into the firmament of its most-used products. Today, it announced that Google Maps was getting a new AI-powered \"Ask Maps\" feature that allows for \"complex, real-world questions\" with highly detailed,…",
+      "source": "The Verge AI",
+      "category": "ai",
+      "pubDate": "2026-03-12T12:30:00.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "dtr7tq",
+      "title": "Bell Ambulance data breach impacted over 238,000 people",
+      "link": "https://databreaches.net/2026/03/12/bell-ambulance-data-breach-impacted-over-238000-people/?pk_campaign=feed&pk_kwd=bell-ambulance-data-breach-impacted-over-238000-people",
+      "description": "Pierluigi Paganini reports: Nearly 238,000 individuals are impacted by a February 2025 Bell Ambulance data breach. Bell Ambulance is a U.S.-based emergency medical services provider offering ambulance transport, paramedic care, and patient support.…",
+      "source": "DataBreaches.net",
+      "category": "data-breaches",
+      "pubDate": "Thu, 12 Mar 2026 12:28:39 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "dhsqqz",
+      "title": "Perplexity&#8217;s Personal Computer turns your spare Mac into an AI agent",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/893536/perplexitys-personal-computer-turns-your-spare-mac-into-an-ai-agent",
+      "description": "Perplexity wants to be more than just an answer engine. On Wednesday, it launched Personal Computer, a new AI agent tool that can turn a spare Mac into a locally run AI system, pitching it as \"a digital proxy for you.\" Personal Computer will run…",
+      "source": "The Verge AI",
+      "category": "ai",
+      "pubDate": "2026-03-12T12:00:34.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "kloryy",
+      "title": "Siemens SIDIS Prime",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-03",
+      "description": "View CSAF Summary SIDIS Prime before V4.0.800 is affected by multiple vulnerabilities in the components OpenSSL, SQLite, and several Node.js packages as described below. Siemens has released a new version of SIDIS Prime and recommends to update to…",
+      "source": "CISA Advisories",
+      "category": "vulnerabilities",
+      "pubDate": "Thu, 12 Mar 26 12:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "qrfqhb",
+      "title": "Siemens RUGGEDCOM APE1808 Devices",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-02",
+      "description": "View CSAF Summary Fortinet has published information on vulnerabilities in FORTIOS. This advisory lists the related Siemens Industrial products. Siemens has released a new version for RUGGEDCOM APE1808 and recommends to update to the latest version.…",
+      "source": "CISA Advisories",
+      "category": "vulnerabilities",
+      "pubDate": "Thu, 12 Mar 26 12:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "uc95gy",
+      "title": "Siemens SIMATIC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-04",
+      "description": "View CSAF Summary SIMATIC S7-1500 devices contain a vulnerability that could allow an attacker to inject code by tricking a legitimate user into importing a specially crafted trace file in the web interface. Siemens has released new versions for…",
+      "source": "CISA Advisories",
+      "category": "vulnerabilities",
+      "pubDate": "Thu, 12 Mar 26 12:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "gcrol7",
+      "title": "Trane Tracer SC, Tracer SC+, and Tracer Concierge",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, execute arbitrary commands, or perform a denial-of-service on the product. The following versions of Trane Tracer SC,…",
+      "source": "CISA Advisories",
+      "category": "vulnerabilities",
+      "pubDate": "Thu, 12 Mar 26 12:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "to8sf4",
+      "title": "Inductive Automation Ignition Software",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute malicious code with OS application service account permissions that the authenticated, privileged application user did not intend on running. The…",
+      "source": "CISA Advisories",
+      "category": "vulnerabilities",
+      "pubDate": "Thu, 12 Mar 26 12:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "5ijhqy",
+      "title": "Siemens Heliox EV Chargers",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-05",
+      "description": "View CSAF Summary Heliox EV Chargers listed below contain improper access control vulnerability that could allow an attacker to reach unauthorized services via the charging cable. Siemens has released new versions for the affected products and…",
+      "source": "CISA Advisories",
+      "category": "vulnerabilities",
+      "pubDate": "Thu, 12 Mar 26 12:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "bagt6e",
+      "title": "Lotte Card fined 9.6 billion won for leaking users’ social registration numbers",
+      "link": "https://databreaches.net/2026/03/12/lotte-card-fined-9-6-billion-won-for-leaking-users-social-registration-numbers/?pk_campaign=feed&pk_kwd=lotte-card-fined-9-6-billion-won-for-leaking-users-social-registration-numbers",
+      "description": "Korea JoongAng Daily reports: Lotte Card was fined 9.6 billion won ($6.5 million) by the Personal Information Protection Commission (PIPC) after 450,000 users’ social registration numbers were leaked. The PIPC decided to impose an administrative…",
+      "source": "DataBreaches.net",
+      "category": "data-breaches",
+      "pubDate": "Thu, 12 Mar 2026 11:58:17 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "hgd2dv",
+      "title": "Brutal times for the US battery industry",
+      "link": "https://www.technologyreview.com/2026/03/12/1134197/us-battery-industry/",
+      "description": "Just a few years ago, the battery industry was hot, hot, hot. There was a seemingly infinite number of companies popping up, with shiny new chemistries and massive fundraising rounds. My biggest problem was sifting through the pile to pick the most…",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "pubDate": "Thu, 12 Mar 2026 10:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "s28he4",
+      "title": "GitHub availability report: February 2026",
+      "link": "https://github.blog/news-insights/company-news/github-availability-report-february-2026/",
+      "description": "In February, we experienced six incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: February 2026 appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "category": "dev-tools",
+      "pubDate": "Thu, 12 Mar 2026 03:23:54 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "3di3oz",
+      "title": "Handala claims responsibility for attack on medical device maker Stryker",
+      "link": "https://databreaches.net/2026/03/11/handala-claims-responsibility-for-attack-on-medical-device-maker-stryker/?pk_campaign=feed&pk_kwd=handala-claims-responsibility-for-attack-on-medical-device-maker-stryker",
+      "description": "A.J. Vicens and Christy Santhosh report: An Iranian-linked hacking group on Wednesday claimed ‌responsibility for a destructive cyberattack on U.S.-based medical device and services provider Stryker, according to messages posted to the group’s…",
+      "source": "DataBreaches.net",
+      "category": "data-breaches",
+      "pubDate": "Wed, 11 Mar 2026 22:59:54 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "8ste2i",
+      "title": "One of Grammarly’s ‘experts’ is suing the company over its identity-stealing AI feature",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin",
+      "description": "Journalist Julia Angwin is one of the writers whose likeness was used in Grammarly’s “expert review” feature. | Photo: Eóin Noonan / Sportsfile via Getty Images For months, Grammarly has been using the identities of real people (including us) for…",
+      "source": "The Verge AI",
+      "category": "ai",
+      "pubDate": "2026-03-11T22:51:53.000Z",
+      "aiSummary": null
+    },
+    {
+      "id": "2zb28w",
+      "title": "Addressing GitHub’s recent availability issues",
+      "link": "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2/",
+      "description": "GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we’re prioritizing right now. The post Addressing GitHub’s recent availability…",
+      "source": "GitHub Blog",
+      "category": "dev-tools",
+      "pubDate": "Wed, 11 Mar 2026 21:41:51 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "s91tuo",
+      "title": "14,000 routers are infected by malware that's highly resistant to takedowns",
+      "link": "https://arstechnica.com/security/2026/03/14000-routers-are-infected-by-malware-thats-highly-resistant-to-takedowns/",
+      "description": "Most of the devices are made by Asus and are located in the US.",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "pubDate": "Wed, 11 Mar 2026 21:27:16 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "qish0h",
+      "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
+      "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+      "description": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of…",
+      "source": "Krebs on Security",
+      "category": "cybersecurity",
+      "pubDate": "Wed, 11 Mar 2026 16:20:13 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "e7pojb",
+      "title": "Police Scotland fined £66k for extracting and sharing mobile phone data",
+      "link": "https://databreaches.net/2026/03/11/police-scotland-fined-66k-for-extracting-and-sharing-mobile-phone-data/?pk_campaign=feed&pk_kwd=police-scotland-fined-66k-for-extracting-and-sharing-mobile-phone-data",
+      "description": "Scottish Legal News reports: The Information Commissioner’s Office (ICO) issued the fine and reprimand after finding that a series of data protection failures resulted in the excessive collection, handling and unlawful disclosure of sensitive…",
+      "source": "DataBreaches.net",
+      "category": "data-breaches",
+      "pubDate": "Wed, 11 Mar 2026 14:49:18 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "e6qhf3",
+      "title": "Hustlers are cashing in on China’s OpenClaw AI craze",
+      "link": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
+      "description": "Feng Qingyang had always hoped to launch his own company, but he never thought this would be how—or that the day would come this fast. Feng, a 27-year-old software engineer based in Beijing, started tinkering with OpenClaw, a popular new open-source…",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "pubDate": "Wed, 11 Mar 2026 12:46:21 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "4s1rnh",
+      "title": "The Download: Pokémon Go to train world models, and the US-China race to find aliens",
+      "link": "https://www.technologyreview.com/2026/03/11/1134174/the-download-pokemon-go-train-world-models-us-china-race-find-aliens/",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How Pokémon Go is giving delivery robots an inch-perfect view of the world Pokémon Go was the world’s first…",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "pubDate": "Wed, 11 Mar 2026 12:38:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "5m4eg8",
+      "title": "The rise of teen hackers ‘makes for a good headline’, but cyber crime activities peak later in life",
+      "link": "https://databreaches.net/2026/03/11/the-rise-of-teen-hackers-makes-for-a-good-headline-but-cyber-crime-activities-peak-later-in-life/?pk_campaign=feed&pk_kwd=the-rise-of-teen-hackers-makes-for-a-good-headline-but-cyber-crime-activities-peak-later-in-life",
+      "description": "Emma Woollacott reports: While much emphasis has been placed on the rise of youth cyber crime over the last two years, new research shows hacker activity peaks much later. Orange Cyberdefense looked at the numbers and found that it’s actually…",
+      "source": "DataBreaches.net",
+      "category": "data-breaches",
+      "pubDate": "Wed, 11 Mar 2026 12:01:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "1zvka8",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-68613 n8n Improper Control of Dynamically-Managed Code Resources Vulnerability This type of vulnerability…",
+      "source": "CISA Advisories",
+      "category": "vulnerabilities",
+      "pubDate": "Wed, 11 Mar 26 12:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "oymaxr",
+      "title": "Viral ‘Quittr’ Porn Addiction App Exposed the Masturbation Habits of Hundreds of Thousands of Users",
+      "link": "https://databreaches.net/2026/03/11/viral-quittr-porn-addiction-app-exposed-the-masturbation-habits-of-hundreds-of-thousands-of-users/?pk_campaign=feed&pk_kwd=viral-quittr-porn-addiction-app-exposed-the-masturbation-habits-of-hundreds-of-thousands-of-users",
+      "description": "Emanuel Maiberg reports: Quittr, an app that promises to help men stop watching pornography, leaked intimate data on hundreds of thousands of its users, including their masturbation habits, and lied about its security issues, 404 Media can now…",
+      "source": "DataBreaches.net",
+      "category": "data-breaches",
+      "pubDate": "Wed, 11 Mar 2026 11:58:50 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "2r2pry",
+      "title": "Microsoft Patch Tuesday, March 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
+      "description": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some…",
+      "source": "Krebs on Security",
+      "category": "cybersecurity",
+      "pubDate": "Wed, 11 Mar 2026 00:32:51 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "6gnexb",
+      "title": "The era of “AI as text” is over. Execution is the new interface.",
+      "link": "https://github.blog/ai-and-ml/github-copilot/the-era-of-ai-as-text-is-over-execution-is-the-new-interface/",
+      "description": "AI is shifting from prompt-response interactions to programmable execution. See how the GitHub Copilot SDK enables agentic workflows directly inside your applications. The post The era of “AI as text” is over. Execution is the new interface.…",
+      "source": "GitHub Blog",
+      "category": "dev-tools",
+      "pubDate": "Tue, 10 Mar 2026 20:16:01 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "fwt011",
+      "title": "Building a strong data infrastructure for AI agent success",
+      "link": "https://www.technologyreview.com/2026/03/10/1134083/building-a-strong-data-infrastructure-for-ai-agent-success/",
+      "description": "In the race to adopt and show value from AI, enterprises are moving faster than ever to deploy agentic AI as copilots, assistants, and autonomous task-runners. In late 2025, nearly two-thirds of companies were experimenting with AI agents, while 88%…",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "pubDate": "Tue, 10 Mar 2026 14:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "4m20lf",
+      "title": "Honeywell IQ4x BMS Controller",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-069-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthorized attacker to access controller management settings, control components, disclose information, or cause a denial-of-service condition. The following versions…",
+      "source": "CISA Advisories",
+      "category": "vulnerabilities",
+      "pubDate": "Tue, 10 Mar 26 12:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ef37dp",
+      "title": "Ceragon Siklu MultiHaul and EtherHaul Series",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-069-04",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in arbitrary file upload to the target equipment. The following versions of Ceragon Siklu MultiHaul and EtherHaul Series are affected: MultiHaul MH-B100-CCS MultiHaul…",
+      "source": "CISA Advisories",
+      "category": "vulnerabilities",
+      "pubDate": "Tue, 10 Mar 26 12:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "wcdtq4",
+      "title": "Weekly Update 494",
+      "link": "https://www.troyhunt.com/weekly-update-494/",
+      "description": "Since starting HIBP a dozen and a bit years ago, I've loaded an average of one breach every 4.7 days. That's 959 of them to date, but last week it was five in only two days. That's a few weeks' worth of",
+      "source": "HaveIBeenPwned Blog",
+      "category": "data-breaches",
+      "pubDate": "Tue, 10 Mar 2026 01:29:35 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "t2rop5",
+      "title": "Under the hood: Security architecture of GitHub Agentic Workflows",
+      "link": "https://github.blog/ai-and-ml/generative-ai/under-the-hood-security-architecture-of-github-agentic-workflows/",
+      "description": "GitHub Agentic Workflows are built with isolation, constrained outputs, and comprehensive logging. Learn how our threat model and security architecture help teams run agents safely in GitHub Actions. The post Under the hood: Security architecture of…",
+      "source": "GitHub Blog",
+      "category": "dev-tools",
+      "pubDate": "Mon, 09 Mar 2026 16:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "i8iqdw",
+      "title": "How AI Assistants are Moving the Security Goalposts",
+      "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
+      "description": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising…",
+      "source": "Krebs on Security",
+      "category": "cybersecurity",
+      "pubDate": "Sun, 08 Mar 2026 23:35:42 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "yn00jw",
+      "title": "How to scan for vulnerabilities with GitHub Security Lab’s open source AI-powered framework",
+      "link": "https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/",
+      "description": "GitHub Security Lab Taskflow Agent is very effective at finding Auth Bypasses, IDORs, Token Leaks, and other high-impact vulnerabilities. The post How to scan for vulnerabilities with GitHub Security Lab’s open source AI-powered framework appeared…",
+      "source": "GitHub Blog",
+      "category": "dev-tools",
+      "pubDate": "Fri, 06 Mar 2026 21:09:04 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "eonke4",
+      "title": "Feds take notice of iOS vulnerabilities exploited under mysterious circumstances",
+      "link": "https://arstechnica.com/security/2026/03/cisa-adds-3-ios-flaws-to-its-catalog-of-known-exploited-vulnerabilities/",
+      "description": "The long, strange trip of a large assembly of advanced iOS exploits.",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "pubDate": "Fri, 06 Mar 2026 19:41:33 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "x0ppe1",
+      "title": "Amazon appears to be down, with over 20,000 reported problems",
+      "link": "https://arstechnica.com/gadgets/2026/03/amazon-appears-to-be-down-with-over-20000-reported-problems/",
+      "description": "Problems viewing products and checking out.",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "pubDate": "Thu, 05 Mar 2026 21:06:05 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "9p28pk",
+      "title": "60 million Copilot code reviews and counting",
+      "link": "https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/",
+      "description": "How Copilot code review helps teams keep up with AI-accelerated code changes. The post 60 million Copilot code reviews and counting appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "category": "dev-tools",
+      "pubDate": "Thu, 05 Mar 2026 20:10:43 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "ercdzu",
+      "title": "Trump gets data center companies to pledge to pay for power generation",
+      "link": "https://arstechnica.com/tech-policy/2026/03/leading-ai-datacenter-companies-sign-pledge-to-buy-their-own-power/",
+      "description": "With no enforcement and questionable economics, it may not make a difference.",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "pubDate": "Thu, 05 Mar 2026 18:41:28 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "1vci9z",
+      "title": "Scaling AI opportunity across the globe: Learnings from GitHub and Andela",
+      "link": "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
+      "description": "Developers connected to Andela share how they’re learning AI tools inside real production workflows. The post Scaling AI opportunity across the globe: Learnings from GitHub and Andela appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "category": "dev-tools",
+      "pubDate": "Thu, 05 Mar 2026 17:00:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "4cdgm0",
+      "title": "Downdetector, Speedtest sold to IT service-provider Accenture in $1.2B deal",
+      "link": "https://arstechnica.com/information-technology/2026/03/downdetector-speedtest-sold-to-it-service-provider-accenture-in-1-2b-deal/",
+      "description": "Accenture plans to buy Ookla, which also includes RootMetrics and Ekahau.",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "pubDate": "Tue, 03 Mar 2026 22:20:06 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "74uf84",
+      "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
+      "link": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
+      "description": "Here's how we made the search experience better, faster, and more resilient for GHES customers. The post How we rebuilt the search architecture for high availability in GitHub Enterprise Server appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "category": "dev-tools",
+      "pubDate": "Tue, 03 Mar 2026 18:45:09 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "b3f2fy",
+      "title": "Join or host a GitHub Copilot Dev Days event near you",
+      "link": "https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/",
+      "description": "GitHub Copilot Dev Days is a global series of hands-on, in-person, community-led events designed to help developers explore real-world, AI-assisted coding. The post Join or host a GitHub Copilot Dev Days event near you appeared first on The GitHub…",
+      "source": "GitHub Blog",
+      "category": "dev-tools",
+      "pubDate": "Tue, 03 Mar 2026 16:55:00 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "3f39xk",
+      "title": "LLMs can unmask pseudonymous users at scale with surprising accuracy",
+      "link": "https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/",
+      "description": "Pseudonymity has never been perfect for preserving privacy. Soon it may be pointless.",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "pubDate": "Tue, 03 Mar 2026 12:30:24 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "idlv26",
+      "title": "Weekly Update 493",
+      "link": "https://www.troyhunt.com/weekly-update-493/",
+      "description": "The Odido breach leaks were towards the beginning during this week's update. I recorded it the day after the second dump of data had hit, with a third dump coming a few hours later, and a final dump of everything the day after that. From what I hear,",
+      "source": "HaveIBeenPwned Blog",
+      "category": "data-breaches",
+      "pubDate": "Mon, 02 Mar 2026 07:51:14 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "e58p5b",
+      "title": "Who is the Kimwolf Botmaster “Dort”?",
+      "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
+      "description": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the…",
+      "source": "Krebs on Security",
+      "category": "cybersecurity",
+      "pubDate": "Sat, 28 Feb 2026 12:01:57 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "g4rtep",
+      "title": "Google quantum-proofs HTTPS by squeezing 15kB of data into 700-byte space",
+      "link": "https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/",
+      "description": "Merkle Tree Certificate support is already in Chrome. Soon, it will be everywhere.",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "pubDate": "Sat, 28 Feb 2026 01:26:41 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "q53pcc",
+      "title": "New AirSnitch attack bypasses Wi-Fi encryption in homes, offices, and enterprises",
+      "link": "https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/",
+      "description": "That guest network you set up for your neighbors may not be as secure as you think.",
+      "source": "Ars Technica AI",
+      "category": "ai",
+      "pubDate": "Thu, 26 Feb 2026 15:45:18 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "4etwe8",
+      "title": "Weekly Update 492",
+      "link": "https://www.troyhunt.com/weekly-update-492/",
+      "description": "The recurring theme this week seems to be around the gap between breaches happening and individual victims finding out about them. It's tempting to blame this on the corporate victim of the breach (the hacked company), but they're simultaneously…",
+      "source": "HaveIBeenPwned Blog",
+      "category": "data-breaches",
+      "pubDate": "Tue, 24 Feb 2026 00:38:59 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "uwwciy",
+      "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+      "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+      "description": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets…",
+      "source": "Krebs on Security",
+      "category": "cybersecurity",
+      "pubDate": "Fri, 20 Feb 2026 20:00:30 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "9jy29q",
+      "title": "Weekly Update 491",
+      "link": "https://www.troyhunt.com/weekly-update-491/",
+      "description": "Well, the ESP32 Bluetooth bridge experiment was a complete failure. Not the radios themselves, they're actually pretty cool, but there's just no way I could get the Yale locks to be reliably operated by them. At a guess, BLE is a bit too passive to…",
+      "source": "HaveIBeenPwned Blog",
+      "category": "data-breaches",
+      "pubDate": "Tue, 17 Feb 2026 05:09:12 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "y1zq0f",
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+      "description": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications.…",
+      "source": "Krebs on Security",
+      "category": "cybersecurity",
+      "pubDate": "Wed, 11 Feb 2026 16:08:11 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "a4um4o",
+      "title": "Patch Tuesday, February 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+      "description": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
+      "source": "Krebs on Security",
+      "category": "cybersecurity",
+      "pubDate": "Tue, 10 Feb 2026 21:49:53 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "niq0xo",
+      "title": "Weekly Update 490",
+      "link": "https://www.troyhunt.com/weekly-update-490/",
+      "description": "A big \"thank you\" to everyone who helped me troubleshoot the problem with my \"Print Screen\" button on the new PC. Try as we all might, none of us could figure out why it refused to bind to SnagIt and instead insisted on dumping the entire",
+      "source": "HaveIBeenPwned Blog",
+      "category": "data-breaches",
+      "pubDate": "Mon, 09 Feb 2026 04:19:39 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "odr2b4",
+      "title": "Weekly Update 489",
+      "link": "https://www.troyhunt.com/weekly-update-489/",
+      "description": "This week I'm in Hong Kong, and the day after recording, I gave the talk shown in the image above at INTERPOL's Cybercrime Expert Group. I posted a little about this on Facebook and LinkedIn, but thought I'd expand on what really stuck with",
+      "source": "HaveIBeenPwned Blog",
+      "category": "data-breaches",
+      "pubDate": "Wed, 04 Feb 2026 02:31:18 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "fjxeee",
+      "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
+      "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
+      "description": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while…",
+      "source": "Krebs on Security",
+      "category": "cybersecurity",
+      "pubDate": "Mon, 02 Feb 2026 16:15:16 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "aez3n6",
+      "title": "Weekly Update 488",
+      "link": "https://www.troyhunt.com/weekly-update-488/",
+      "description": "It's the discussion about the reaction of some people in the UK regarding their impending social media ban for under 16s that bugged me most. Most noteably was the hand-waving around \"the gov is just trying to siphon up all our IDs\" and \"this means",
+      "source": "HaveIBeenPwned Blog",
+      "category": "data-breaches",
+      "pubDate": "Tue, 27 Jan 2026 09:50:05 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "sgcmt6",
+      "title": "Who Operates the Badbox 2.0 Botnet?",
+      "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
+      "description": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by…",
+      "source": "Krebs on Security",
+      "category": "cybersecurity",
+      "pubDate": "Mon, 26 Jan 2026 16:11:38 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "u3kfsd",
+      "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+      "link": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
+      "description": "A new Internet-of-Things botnet called Kimwolf has spread to more than 2 million devices, forcing infected systems to participate in massive distributed denial-of-service (DDoS) attacks and to relay other malicious and abusive Internet traffic.…",
+      "source": "Krebs on Security",
+      "category": "cybersecurity",
+      "pubDate": "Tue, 20 Jan 2026 18:19:13 +0000",
+      "aiSummary": null
+    },
+    {
+      "id": "3jsv0s",
+      "title": "Weekly Update 487",
+      "link": "https://www.troyhunt.com/weekly-update-487/",
+      "description": "I thought Scott would cop it first when he posted about what his solar system really cost him last year. \"You're so gonna get that stupid AI-slop response from some people\", I joked. But no, he got other stupid responses instead! And I got the…",
+      "source": "HaveIBeenPwned Blog",
+      "category": "data-breaches",
+      "pubDate": "Sun, 18 Jan 2026 08:43:10 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "hiktoq",
+      "title": "Weekly Update 486",
+      "link": "https://www.troyhunt.com/weekly-update-486/",
+      "description": "I’m in Oslo! Flighty is telling me I’ve flown in or out of here 43 times since a visit in 2014 set me on a new path professionally and, many years later, personally. It’s special here, like a second home that just feels…",
+      "source": "HaveIBeenPwned Blog",
+      "category": "data-breaches",
+      "pubDate": "Fri, 16 Jan 2026 06:39:10 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "2tm73p",
+      "title": "Who Decides Who Doesn’t Deserve Privacy?",
+      "link": "https://www.troyhunt.com/who-decides-who-doesnt-deserve-privacy/",
+      "description": "Remember the Ashley Madison data breach? That was now more than a decade ago, yet it arguably remains the single most noteworthy data breach of all time. There are many reasons for this accolade, but chief among them is that by virtue of the site…",
+      "source": "HaveIBeenPwned Blog",
+      "category": "data-breaches",
+      "pubDate": "Tue, 13 Jan 2026 11:41:40 GMT",
+      "aiSummary": null
+    },
+    {
+      "id": "hx64dx",
+      "title": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-343a",
+      "description": "Summary Note: This joint Cybersecurity Advisory is being published as an addition to the Cybersecurity and Infrastructure Security Agency (CISA) May 6, 2025, joint fact sheet Primary Mitigations to Reduce Cyber Threats to Operational Technology and…",
+      "source": "US-CERT",
+      "category": "vulnerabilities",
+      "pubDate": "Fri, 05 Dec 2025 14:35:38 EST",
+      "aiSummary": null
+    },
+    {
+      "id": "1cgz8r",
+      "title": "CISA Shares Lessons Learned from an Incident Response Engagement",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-266a",
+      "description": "Advisory at a Glance Executive Summary CISA began incident response efforts at a U.S. federal civilian executive branch (FCEB) agency following the detection of potential malicious activity identified through security alerts generated by the…",
+      "source": "US-CERT",
+      "category": "vulnerabilities",
+      "pubDate": "Mon, 22 Sep 2025 11:12:49 EDT",
+      "aiSummary": null
+    },
+    {
+      "id": "pvbfn9",
+      "title": "Countering Chinese State-Sponsored Actors Compromise of Networks Worldwide to Feed Global Espionage System",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a",
+      "description": "Executive summary People’s Republic of China (PRC) state-sponsored cyber threat actors are targeting networks globally, including, but not limited to, telecommunications, government, transportation, lodging, and military infrastructure networks.…",
+      "source": "US-CERT",
+      "category": "vulnerabilities",
+      "pubDate": "Mon, 25 Aug 2025 09:36:40 EDT",
+      "aiSummary": null
+    },
+    {
+      "id": "l6t3dj",
+      "title": "CISA and USCG Identify Areas for Cyber Hygiene Improvement After Conducting Proactive Threat Hunt at US Critical Infrastructure Organization",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-212a",
+      "description": "Summary The Cybersecurity and Infrastructure Security Agency (CISA) and U.S. Coast Guard (USCG) are issuing this Cybersecurity Advisory to present findings from a recent CISA and USCG hunt engagement. The purpose of this advisory is to highlight…",
+      "source": "US-CERT",
+      "category": "vulnerabilities",
+      "pubDate": "Tue, 29 Jul 2025 13:53:52 EDT",
+      "aiSummary": null
+    },
+    {
+      "id": "rcrq0g",
+      "title": "#StopRansomware: Interlock",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a",
+      "description": "Summary Note: This joint Cybersecurity Advisory is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and ransomware threat actors. These #StopRansomware advisories include…",
+      "source": "US-CERT",
+      "category": "vulnerabilities",
+      "pubDate": "Mon, 21 Jul 2025 10:11:24 EDT",
+      "aiSummary": null
+    },
+    {
+      "id": "7ghln",
+      "title": "Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-163a",
+      "description": "Summary The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this advisory in response to ransomware actors leveraging unpatched instances of a vulnerability in SimpleHelp Remote Monitoring and Management (RMM) to compromise…",
+      "source": "US-CERT",
+      "category": "vulnerabilities",
+      "pubDate": "Thu, 12 Jun 2025 10:29:54 EDT",
+      "aiSummary": null
+    },
+    {
+      "id": "d2juvx",
+      "title": "Threat Actors Deploy LummaC2 Malware to Exfiltrate Sensitive Data from Organizations",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141b",
+      "description": "Summary The Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructure Security Agency (CISA) are releasing this joint advisory to disseminate known tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs)…",
+      "source": "US-CERT",
+      "category": "vulnerabilities",
+      "pubDate": "Tue, 20 May 2025 15:20:23 EDT",
+      "aiSummary": null
+    },
+    {
+      "id": "eb3hu0",
+      "title": "Russian GRU Targeting Western Logistics Entities and Technology Companies",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a",
+      "description": "Executive Summary This joint cybersecurity advisory (CSA) highlights a Russian state-sponsored cyber campaign targeting Western logistics entities and technology companies. This includes those involved in the coordination, transport, and delivery of…",
+      "source": "US-CERT",
+      "category": "vulnerabilities",
+      "pubDate": "Mon, 12 May 2025 12:49:12 EDT",
+      "aiSummary": null
+    },
+    {
+      "id": "nmrn00",
+      "title": "Fast Flux: A National Security Threat",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-093a",
+      "description": "Executive summary Many networks have a gap in their defenses for detecting and blocking a malicious technique known as “fast flux.” This technique poses a significant threat to national security, enabling malicious cyber actors to consistently evade…",
+      "source": "US-CERT",
+      "category": "vulnerabilities",
+      "pubDate": "Tue, 01 Apr 2025 15:00:21 EDT",
+      "aiSummary": null
+    },
+    {
+      "id": "oz3s8k",
+      "title": "#StopRansomware: Medusa Ransomware",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "description": "Summary Note: This joint Cybersecurity Advisory is part of an ongoing #StopRansomware effort to publish advisories for network defenders detailing various ransomware variants and ransomware threat actors. These #StopRansomware advisories include…",
+      "source": "US-CERT",
+      "category": "vulnerabilities",
+      "pubDate": "Tue, 11 Mar 2025 10:52:42 EDT",
+      "aiSummary": null
+    }
+  ],
+  "lastUpdated": "2026-03-14T11:50:11.064Z",
+  "stats": {
+    "success": 20,
+    "failed": 0,
+    "total": 20
+  }
+}

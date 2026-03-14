@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,300&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════
+   LIGHT THEME (default)
+   ═══════════════════════════════════════════ */
+:root {
+  --surface-0: #f1f5f9;       /* page background — slate-100 */
+  --surface-1: #ffffff;        /* cards */
+  --surface-2: #f0f4f8;       /* subtle backgrounds, badges */
+  --surface-3: #e2e8f0;       /* borders */
+  --surface-4: #cbd5e1;       /* stronger borders / dividers */
+
+  --accent-teal: #0d9488;     /* primary brand — teal-600 */
+  --accent-cyan: #0891b2;     /* secondary accent — cyan-600 */
+  --accent-blue: #2563eb;
+  --accent-violet: #7c3aed;
+  --accent-amber: #d97706;
+  --accent-red: #dc2626;
+  --accent-green: #059669;
+
+  --text-primary: #0f172a;    /* slate-900 */
+  --text-secondary: #475569;  /* slate-600 */
+  --text-muted: #94a3b8;      /* slate-400 */
+  --text-inverse: #ffffff;
+
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-card-hover: 0 10px 25px rgba(0,0,0,0.08), 0 4px 10px rgba(0,0,0,0.04);
+  --shadow-header: 0 1px 3px rgba(0,0,0,0.06);
+
+  --header-bg: #0d9488;       /* teal header */
+  --header-text: #ffffff;
+  --header-subtle: rgba(255,255,255,0.7);
+  --nav-bg: #ffffff;
+  --nav-active-bg: #0d948815;
+  --nav-active-text: #0d9488;
+}
+
+/* ═══════════════════════════════════════════
+   DARK THEME
+   ═══════════════════════════════════════════ */
+.dark {
+  --surface-0: #0c1017;
+  --surface-1: #141a24;
+  --surface-2: #1c2333;
+  --surface-3: #283040;
+  --surface-4: #374357;
+
+  --accent-teal: #2dd4bf;
+  --accent-cyan: #22d3ee;
+  --accent-blue: #60a5fa;
+  --accent-violet: #a78bfa;
+  --accent-amber: #fbbf24;
+  --accent-red: #f87171;
+  --accent-green: #34d399;
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #4b5e78;
+  --text-inverse: #0f172a;
+
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.2);
+  --shadow-card-hover: 0 10px 25px rgba(0,0,0,0.4), 0 4px 10px rgba(0,0,0,0.3);
+  --shadow-header: 0 1px 3px rgba(0,0,0,0.4);
+
+  --header-bg: #141a24;
+  --header-text: #f1f5f9;
+  --header-subtle: rgba(241,245,249,0.5);
+  --nav-bg: #141a24;
+  --nav-active-bg: #2dd4bf18;
+  --nav-active-text: #2dd4bf;
+}
+
+/* ═══════════════════════════════════════════
+   BASE STYLES
+   ═══════════════════════════════════════════ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  background: var(--surface-0);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--surface-0);
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* iOS smooth scroll */
+@supports (-webkit-touch-callout: none) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface-0);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--surface-4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Category nav – hidden scrollbar */
+.category-nav {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.category-nav::-webkit-scrollbar {
+  display: none;
+}
+
+/* ═══════════════════════════════════════════
+   HEADER – teal gradient in light, dark bg in dark
+   ═══════════════════════════════════════════ */
+.dashboard-header {
+  background: var(--header-bg);
+  color: var(--header-text);
+  box-shadow: var(--shadow-header);
+}
+
+/* ═══════════════════════════════════════════
+   CARDS
+   ═══════════════════════════════════════════ */
+.article-card {
+  background: var(--surface-1);
+  border: 1px solid var(--surface-3);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.article-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card-hover);
+  border-color: var(--surface-4);
+}
+@media (hover: none) {
+  .article-card:hover {
+    transform: none;
+    box-shadow: var(--shadow-card);
+  }
+  .article-card:active {
+    transform: scale(0.985);
+  }
+}
+
+/* ═══════════════════════════════════════════
+   ANIMATIONS
+   ═══════════════════════════════════════════ */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.animate-pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.4s ease-out forwards;
+  opacity: 0;
+}
+
+/* Stagger children */
+.stagger-children > *:nth-child(1) { animation-delay: 0.02s; }
+.stagger-children > *:nth-child(2) { animation-delay: 0.04s; }
+.stagger-children > *:nth-child(3) { animation-delay: 0.06s; }
+.stagger-children > *:nth-child(4) { animation-delay: 0.08s; }
+.stagger-children > *:nth-child(5) { animation-delay: 0.10s; }
+.stagger-children > *:nth-child(6) { animation-delay: 0.12s; }
+.stagger-children > *:nth-child(7) { animation-delay: 0.14s; }
+.stagger-children > *:nth-child(8) { animation-delay: 0.16s; }
+.stagger-children > *:nth-child(9) { animation-delay: 0.18s; }
+.stagger-children > *:nth-child(10) { animation-delay: 0.20s; }
+
+/* Loading skeleton */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--surface-2) 25%,
+    var(--surface-3) 50%,
+    var(--surface-2) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 6px;
+}
