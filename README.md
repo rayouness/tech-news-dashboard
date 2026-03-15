@@ -279,3 +279,4 @@ The `ArticleCard` component already uses `article.aiSummary || article.descripti
 ## License
 
 Personal use. Built for learning and daily news monitoring.
+ 
