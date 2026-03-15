@@ -1,28 +1,34 @@
 import { NextResponse } from "next/server";
 import { fetchAllFeeds, saveArticles } from "@/lib/rss-parser";
+import { summarizeArticles } from "@/lib/gemini";
 
-// This endpoint is called by Vercel Cron every hour.
+// This endpoint is called by Vercel Cron daily.
 // It can also be called manually: GET /api/update-feeds
 
 export const dynamic = "force-dynamic";
-export const maxDuration = 60; // Allow up to 60s for feed fetching
+export const maxDuration = 60;
 
 export async function GET(request) {
-  // Optional: Verify cron secret in production
-  // const authHeader = request.headers.get("authorization");
-  // if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
-  //   return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  // }
-
   try {
     console.log("[Cron] Starting feed update...");
+    console.log("[Cron] GEMINI_API_KEY present:", !!process.env.GEMINI_API_KEY);
+
     const data = await fetchAllFeeds();
-    const saved = await saveArticles(data);
+
+    // Summarize new articles with Gemini (skips if no API key)
+    console.log("[Cron] Starting Gemini summarization...");
+    data.articles = await summarizeArticles(data.articles);
+
+    // Save to in-memory cache
+    saveArticles(data);
+
+    const summarizedCount = data.articles.filter((a) => a.aiSummary).length;
+    console.log(`[Cron] Complete — ${data.articles.length} articles, ${summarizedCount} summarized`);
 
     return NextResponse.json({
       ok: true,
-      saved,
       articlesCount: data.articles.length,
+      summarizedCount,
       lastUpdated: data.lastUpdated,
       stats: data.stats,
     });
